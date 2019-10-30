@@ -12,6 +12,11 @@ int main(void){
     std::cin>>catetoad;
     std::cout<<"Valor del posible cateto adyacente"<< " " <<catetoad<< std::endl;
     
+    float hipo;
+    std::cout<<"Diga el valor de la posible hipotenusa"<< std::endl;
+    std::cin>>hipo;
+    std::cout<<"Valor de la posible hipotenusa"<< " " <<hipo<< std::endl;
+    
     return 0;
     
 }
