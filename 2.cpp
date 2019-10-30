@@ -17,13 +17,17 @@ int main(void){
     std::cin>>hipo;
     std::cout<<"Valor de la posible hipotenusa"<< " " <<hipo<< std::endl;
     
-    float prueba;
-    prueba = catetoop* catetoop + catetoad*catetoad;
-    float c2 = hipo*hipo;
-    if( c2= prueba ){
-      std::cout <<" Si es un triangulo recto con lados: " << hipo << catetoop<< catetoad << std::endl;
+    int prueba = hipo*hipo;
+    int opera = catetoop* catetoop + catetoad*catetoad;
+    
+    if( opera == prueba ){
+      std::cout <<" Si es un triangulo recto con lados: " << catetoop<<", "<< catetoad <<", "<< hipo << std::endl;
     }
-
+    
+    else{
+    std::cout <<"No es un triangulo recto"<< std::endl;
+    }
+    
     return 0;
     
 }
