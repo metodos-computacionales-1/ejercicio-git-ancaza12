@@ -3,8 +3,15 @@
 
 int main(void){
     float catetoop;
-    std::cout<<"Diga el valor del cateto opuesto"<< std::endl;
+    std::cout<<"Diga el valor del posible cateto opuesto"<< std::endl;
     std::cin>>catetoop;
-    std::cout<<"Valor del cateto opuesto"<< " " <<catetoop<< std::endl;
+    std::cout<<"Valor del posible cateto opuesto"<< " " <<catetoop<< std::endl;
+    
+    float catetoad;
+    std::cout<<"Diga el valor del posible cateto adyacente"<< std::endl;
+    std::cin>>catetoad;
+    std::cout<<"Valor del posible cateto adyacente"<< " " <<catetoad<< std::endl;
+    
     return 0;
+    
 }
