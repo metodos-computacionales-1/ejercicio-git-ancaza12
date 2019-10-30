@@ -7,6 +7,6 @@ int main(void){
     std::cin>>N;
 
     std::cout<<"Valor del radio"<< " " <<N<< std::endl;
-   
+    std::cout<<"Valor del perimetro"<< " " <<2*M_PI*N<< std::endl;
     return 0;
 }
