@@ -8,5 +8,7 @@ int main(void){
 
     std::cout<<"Valor del radio"<< " " <<N<< std::endl;
     std::cout<<"Valor del perimetro"<< " " <<2*M_PI*N<< std::endl;
+    std::cout<<"Valor del area"<< " " << M_PI* N*N << std::endl;
+    
     return 0;
 }
